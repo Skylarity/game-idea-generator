@@ -1,2 +1,2 @@
-# game-idea-generator
-Something like @yournextgame
+# Game Idea Generator
+Something like [@yournextgame](https://twitter.com/yournextgame)
