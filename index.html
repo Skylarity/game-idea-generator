@@ -2,10 +2,46 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,200,200italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Custom CSS-->
 		<link rel="stylesheet" href="css/style.css">
+
+		<!-- JQuery -->
+		<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+		<!-- Bootstrap JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!-- Custom JS -->
+		<script type="text/javascript" src="js/generate.js"></script>
+
 		<title>Game Idea Generator</title>
 	</head>
 	<body>
-		<h1>Game Idea Generator</h1>
+		<div class="logo">
+			<header class="container">
+				<div class="text-center"><i class="fa fa-3x fa-gamepad"></i></div>
+				<h1 class="text-center">Game Idea Generator</h1>
+			</header>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="generate">
+						<button class="btn btn-lg btn-success center-block" onclick="regenerate()">Generate</button>
+						<p id="generated"></p>
+					</div>
+				</div>
+			</div>
+		<div>
 	</body>
 </html>

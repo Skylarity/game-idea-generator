@@ -1,0 +1,28 @@
+$light-text: #fff;
+$green: #00c263;
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+	background-color: $green;
+	padding: 40px 0;
+}
+
+.logo>header {
+	color: $light-text;
+}
+
+.generate {
+	padding-top: 40px;
+}
