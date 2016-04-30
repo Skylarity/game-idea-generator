@@ -26,22 +26,35 @@
 
 		<title>Game Idea Generator</title>
 	</head>
-	<body>
-		<div class="logo">
-			<header class="container">
-				<div class="text-center"><i class="fa fa-3x fa-gamepad"></i></div>
-				<h1 class="text-center">Game Idea Generator</h1>
-			</header>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="generate">
-						<button class="btn btn-lg btn-success center-block" onclick="regenerate()">Generate</button>
-						<p id="generated"></p>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<div class="logo">
+				<header class="container">
+					<div class="text-center"><i class="fa fa-3x fa-gamepad"></i></div>
+					<h1 class="text-center">Game Idea Generator</h1>
+				</header>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="generate">
+							<button class="btn btn-lg btn-success center-block" onclick="regenerate()">Generate</button>
+							<p id="generated" class="text-center"></p>
+						</div>
 					</div>
 				</div>
 			</div>
-		<div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							&copy; Skyler Rexroad <span id="date"></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
