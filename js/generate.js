@@ -9,7 +9,7 @@ function generate() {
 		"gametype": ["rpg", "platformer", "sidescroller", "first-person shooter", "third-person shooter", "roguelike", "metroidvania", "puzzle game", "simulator", "hack n' slash"],
 		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man"],
 		"adjectives": ["space", "sad", "solemn", "underdog", "little", "old", "young"],
-		"settings": ["a forest", "the ocean", "space", "an underground cave system", "a big city", "a small town", "the desert", "an island"]
+		"settings": ["a forest", "the ocean", "space", "an underground cave", "a big city", "a small town", "the desert", "an island"]
 	};
 
 	sentence = "";
