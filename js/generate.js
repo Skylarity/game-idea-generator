@@ -5,31 +5,49 @@ $(document).ready(function() {
 
 function generate() {
 	bits = {
-		"gamemodifier": ["mmo", "retro", "pixelated", "grimy", "gritty", "brown", "colorful", "cheerful", "macabre", "noir", "cartoony"],
-		"gametype": ["rpg", "platformer", "sidescroller", "first-person shooter", "third-person shooter", "roguelike", "metroidvania", "puzzle game", "simulator", "hack n' slash"],
-		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog"],
-		"adjectives": ["space", "sad", "solemn", "underdog", "little", "old", "young"],
-		"settings": ["a forest", "the ocean", "space", "an underground cave", "a big city", "a small town", "the desert", "an island"]
+		"happyGameModifiers": ["colorful", "cheerful", "cartoony"],
+		"sadGameModifiers": ["gritty", "grimy", "brown", "macabre", "noir", "dark"],
+		"neutralGameModifiers": ["MMO", "artsy", "pixelated", "retro", "bullethell"],
+
+		"gameGenre": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game" "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania"],
+
+		"happyFirstAdjectives"; ["happy", "angelic"],
+		"happySecondAdjectives"; ["top dog", "hero"],
+		"sadFirstAdjectives": ["sad", "solemn"],
+		"sadSecondAdjectives": ["underdog", "anti-hero"],
+		"neutralFirstAdjectives": ["space", "driven"],
+		"neutralSecondAdjectives": ["little", "young", "old"],
+
+		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster"],
+
+		"settings": ["in a forest", "under the sea", "in the ocean", "in space", "in a cave", "in a cavern", "in a big city", "in a small town", "in the desert", "on an island"]
 	};
 
 	sentence = "";
 
-	gamemodifier = bits.gamemodifier[rand = getRandomInt(0, bits.gamemodifier.length)];
-	gametype = bits.gametype[rand = getRandomInt(0, bits.gametype.length)];
-	noun = bits.nouns[rand = getRandomInt(0, bits.nouns.length)];
-	adjective = bits.adjectives[rand = getRandomInt(0, bits.adjectives.length)];
-	adjective2 = bits.adjectives[rand = getRandomInt(0, bits.adjectives.length)];
-	setting = bits.settings[rand = getRandomInt(0, bits.settings.length)];
-
-	if (adjective == adjective2) {
-		adjective2 = bits.adjectives[rand = getRandomInt(0, bits.adjectives.length)];
-	}
-
+	happy = false;
 	if (getRandomInt(0, 100) > 50) {
-		sentence = gamemodifier + " " + gametype + " about " + " " + adjective + " " + noun + " in " + setting;
-	} else {
-		sentence = gamemodifier + " " + gametype + " about " + " " + adjective + " " + adjective2 + " " + noun + " in " + setting;
+		happy = true;
 	}
+	secondAdjective = false;
+	if (getRandomInt(0, 100) > 25) {
+		secondAdjective = true;
+	}
+
+	if (happy) {
+		gameModifier1 = bits.happyGameModifiers[rand = getRandomInt(0, bits.happyGameModifiers.length)];
+		adjective1 = bits.happyFirstAdjectives[rand = getRandomInt(0, bits.happyFirstAdjectives.length)];
+		if (secondAdjective) {
+			adjective2 = bits.happySecondAdjectives[rand = getRandomInt(0, bits.happySecondAdjectives.length)];
+		}
+	} else {
+		gameModifier1 = bits.sadGameModifiers[rand = getRandomInt(0, bits.sadGameModifiers.length)];
+		adjective1 = bits.sadFirstAdjectives[rand = getRandomInt(0, bits.sadFirstAdjectives.length)];
+	}
+	gameModifier2 = bits.neutralGameModifiers[rand = getRandomInt(0, bits.neutralGameModifiers.length)];
+	gameGenre = bits.gameGenre[rand = getRandomInt(0, bits.gameGenre.length)];
+
+	sentence = gamemodifier1 + " " + gameModifier2 + " " + gameGenre + " " + "about a(n)" + " " + adjective1 + " " + adjective2 + " " + noun + setting;
 
 	firstLetter = sentence.charAt(0).toUpperCase();
 	sentence = firstLetter + sentence.substring(1, sentence.length) + ".";
