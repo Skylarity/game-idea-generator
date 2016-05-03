@@ -45,10 +45,13 @@ function generate() {
 		sentence += bits.sadGameModifiers[rand = getRandomInt(0, bits.sadGameModifiers.length)];
 		sentence += " ";
 	}
+
 	sentence += bits.neutralGameModifiers[rand = getRandomInt(0, bits.neutralGameModifiers.length)];
 	sentence += " ";
+
 	sentence += bits.gameGenres[rand = getRandomInt(0, bits.gameGenres.length)];
 	sentence += " about ";
+
 	if (happy) {
 		sentence += bits.happyFirstAdjectives[rand = getRandomInt(0, bits.happyFirstAdjectives.length)];
 		sentence += " ";
@@ -56,17 +59,20 @@ function generate() {
 		sentence += bits.sadFirstAdjectives[rand = getRandomInt(0, bits.sadFirstAdjectives.length)];
 		sentence += " ";
 	}
+
 	if (neutralAdjective) {
 		sentence += bits.neutralFirstAdjectives[rand = getRandomInt(0, bits.neutralFirstAdjectives.length)];
 		sentence += " ";
 	}
-	sentence += " ";
+
 	if (neutralAdjective && secondAdjective) {
 		sentence += bits.neutralSecondAdjectives[rand = getRandomInt(0, bits.neutralSecondAdjectives.length)];
 		sentence += " ";
 	}
+
 	sentence += bits.nouns[rand = getRandomInt(0, bits.nouns.length)];
 	sentence += " ";
+
 	if (secondAdjective) {
 		if (happy) {
 			sentence += bits.happySecondAdjectives[rand = getRandomInt(0, bits.happySecondAdjectives.length)];
@@ -76,6 +82,7 @@ function generate() {
 			sentence += " ";
 		}
 	}
+
 	sentence += bits.settings[rand = getRandomInt(0, bits.settings.length)];
 
 	firstLetter = sentence.charAt(0).toUpperCase();

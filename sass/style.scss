@@ -3,6 +3,11 @@ $green: #00c263;
 
 * {
 	font-family: 'Raleway', sans-serif;
+
+	::selection {
+		background-color: $green;
+		color: $light-text;
+	}
 }
 
 h1,
@@ -25,6 +30,10 @@ h6 {
 
 .generate {
 	padding-top: 40px;
+}
+
+#generate-btn:focus {
+	outline: none;
 }
 
 #generated {
