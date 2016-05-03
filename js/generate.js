@@ -7,10 +7,10 @@ function generate() {
 	bits = {
 		"happyGameModifiers": ["colorful", "cheerful", "cartoony", "heart-warming"],
 		"sadGameModifiers": ["gritty", "grimy", "macabre", "noir", "dark", "survival horror"],
-		"neutralGameModifiers": ["thrilling", "mysterious", "survival"],
+		"neutralGameModifiers": ["thrilling", "mysterious"],
 		"gameTypes": ["MMO", "artsy", "pixelated", "retro", "bullethell", "physics-based"],
 
-		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania", "strategy game", "MOBA", "point-and-click"],
+		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania", "strategy game", "MOBA", "point-and-click", "survival game"],
 
 		"happyFirstAdjectives": ["happy", "virtuous", "adorable", "righteous"],
 		"happySecondAdjectives": ["hero", "adventurer", "explorer", "daredevil"],
