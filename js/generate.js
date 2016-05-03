@@ -6,7 +6,7 @@ $(document).ready(function() {
 function generate() {
 	bits = {
 		"happyGameModifiers": ["colorful", "cheerful", "cartoony", "heart-warming"],
-		"sadGameModifiers": ["gritty", "grimy", "brown", "macabre", "noir", "dark"],
+		"sadGameModifiers": ["gritty", "grimy", "macabre", "noir", "dark"],
 		"neutralGameModifiers": ["thrilling", "mysterious"],
 		"gameTypes": ["MMO", "artsy", "pixelated", "retro", "bullethell", "physics-based"],
 
