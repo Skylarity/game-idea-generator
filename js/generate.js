@@ -10,7 +10,7 @@ function generate() {
 		"neutralGameModifiers": ["thrilling", "mysterious"],
 		"gameTypes": ["MMO", "artsy", "pixelated", "retro", "bullethell", "physics-based"],
 
-		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania", "strategy game", "MOBA"],
+		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania", "strategy game", "MOBA", "point-and-click"],
 
 		"happyFirstAdjectives": ["happy", "virtuous", "adorable", "righteous"],
 		"happySecondAdjectives": ["hero", "adventurer", "explorer", "daredevil"],
