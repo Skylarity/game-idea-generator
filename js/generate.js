@@ -21,7 +21,7 @@ function generate() {
 
 		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirates", "alien", "bird", "monk", "robot"],
 
-		"settings": ["in a forest", "under the sea", "in the ocean", "in space", "in a cave", "in a cavern", "in a big city", "in a small town", "in the desert", "on an island"]
+		"settings": ["in a forest", "under the sea", "in the ocean", "in space", "in a cave", "in a cavern", "in a big city", "in a small town", "in the desert", "on an island", "on a journey across the desert", "on a long journey", "traveling through the stars"]
 	};
 
 	sentence = "";
