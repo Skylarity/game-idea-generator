@@ -10,7 +10,7 @@ function generate() {
 		"neutralGameModifiers": ["thrilling", "mysterious"],
 		"gameTypes": ["MMO", "artsy", "pixelated", "retro", "bullethell", "physics-based"],
 
-		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania"],
+		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania", "strategy game", "MOBA"],
 
 		"happyFirstAdjectives": ["happy", "virtuous", "adorable", "righteous"],
 		"happySecondAdjectives": ["hero", "adventurer", "explorer", "daredevil"],
@@ -19,7 +19,7 @@ function generate() {
 		"neutralFirstAdjectives": ["little", "young", "old"],
 		"neutralSecondAdjectives": ["space", "ambitious", ""],
 
-		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirates", "alien", "bird", "monk", "robot"],
+		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirates", "alien", "bird", "monk", "robot", "hipster"],
 
 		"settings": ["in a forest", "at sea", "in the ocean", "in space", "in a cave", "in a cavern", "in a big city", "in a small town", "in the desert", "on an island", "on a journey across the desert", "on a long journey", "traveling through the stars"]
 	};
