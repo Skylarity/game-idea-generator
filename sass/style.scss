@@ -28,8 +28,8 @@ h6 {
 }
 
 #generated {
-	margin-top: 40px;
 	font-size: 1.75em;
+	margin-top: 40px;
 }
 
 /***
@@ -52,24 +52,25 @@ body { width: 100%;}
 }
 
 footer {
-	padding: 10px 0;
 	background-color: $green;
 	color: $light-text;
-}
+	padding: 10px 0;
 
-footer p {
-	margin: 0;
-	padding: 0;
-}
+	p {
+		margin: 0;
+		padding: 0;
+	}
 
-footer a,
-footer a:visited,
-footer a {
-	color: $light-text;
-	text-decoration: none;
-}
-footer a:hover,
-footer a:active {
-	color: $light-text;
-	text-decoration: underline;
+	a,
+	a:visited, {
+		color: $light-text;
+		text-decoration: none;
+	}
+
+	a:hover,
+	a:active {
+		color: $light-text;
+		text-decoration: underline;
+	}
+
 }
