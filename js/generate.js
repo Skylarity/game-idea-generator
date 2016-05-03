@@ -6,8 +6,8 @@ $(document).ready(function() {
 function generate() {
 	bits = {
 		"happyGameModifiers": ["colorful", "cheerful", "cartoony", "heart-warming"],
-		"sadGameModifiers": ["gritty", "grimy", "macabre", "noir", "dark"],
-		"neutralGameModifiers": ["thrilling", "mysterious"],
+		"sadGameModifiers": ["gritty", "grimy", "macabre", "noir", "dark", "survival horror"],
+		"neutralGameModifiers": ["thrilling", "mysterious", "survival"],
 		"gameTypes": ["MMO", "artsy", "pixelated", "retro", "bullethell", "physics-based"],
 
 		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania", "strategy game", "MOBA", "point-and-click"],
