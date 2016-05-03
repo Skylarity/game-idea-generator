@@ -17,7 +17,7 @@ function generate() {
 		"sadFirstAdjectives": ["sad", "solemn", "morose", "hellish", "wicked", "unkind", "rough", "clumsy"],
 		"sadSecondAdjectives": ["underdog", "anti-hero"],
 		"neutralFirstAdjectives": ["little", "young", "old"],
-		"neutralSecondAdjectives": ["space", "ambitious", ""],
+		"neutralSecondAdjectives": ["space", "ambitious"],
 
 		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirates", "alien", "bird", "monk", "robot", "hipster"],
 
