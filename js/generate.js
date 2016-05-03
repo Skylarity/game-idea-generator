@@ -18,7 +18,7 @@ function generate() {
 		"neutralFirstAdjectives": ["little", "young", "old"],
 		"neutralSecondAdjectives": ["space", "ambitious", ""],
 
-		"nouns": ["trucker", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirate", "alien", "bird", "monk"],
+		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirates", "alien", "bird", "monk"],
 
 		"settings": ["in a forest", "under the sea", "in the ocean", "in space", "in a cave", "in a cavern", "in a big city", "in a small town", "in the desert", "on an island"]
 	};
