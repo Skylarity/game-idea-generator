@@ -61,3 +61,15 @@ footer p {
 	margin: 0;
 	padding: 0;
 }
+
+footer a,
+footer a:visited,
+footer a {
+	color: $light-text;
+	text-decoration: none;
+}
+footer a:hover,
+footer a:active {
+	color: $light-text;
+	text-decoration: underline;
+}

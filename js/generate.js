@@ -11,12 +11,12 @@ function generate() {
 
 		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania"],
 
-		"happyFirstAdjectives": ["happy", "angelic"],
-		"happySecondAdjectives": ["hero"],
-		"sadFirstAdjectives": ["sad", "solemn", "morose"],
+		"happyFirstAdjectives": ["happy", "virtuous", "adorable", "righteous"],
+		"happySecondAdjectives": ["hero", "adventurer", "explorer", "daredevil"],
+		"sadFirstAdjectives": ["sad", "solemn", "morose", "hellish", "wicked", "unkind", "rough", "clumsy"],
 		"sadSecondAdjectives": ["underdog", "anti-hero"],
 		"neutralFirstAdjectives": ["little", "young", "old"],
-		"neutralSecondAdjectives": ["space", "driven"],
+		"neutralSecondAdjectives": ["space", "ambitious", ""],
 
 		"nouns": ["trucker", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirate", "alien", "bird", "monk"],
 
