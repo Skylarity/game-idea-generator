@@ -31,8 +31,8 @@ function generate() {
 		happy = true;
 	}
 	secondAdjective = false;
-	if (getRandomInt(0, 100) > 80) {
-		secondAdjective = true; // TODO: Fix how second adjectives work
+	if (getRandomInt(0, 100) > 75) {
+		secondAdjective = true;
 	}
 	neutralAdjective = false;
 	if (getRandomInt(0, 100) > 75) {
