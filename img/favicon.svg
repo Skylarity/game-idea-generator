@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Inverted_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 980 980" style="enable-background:new 0 0 980 980;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#F4008B;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st3{display:inline;fill:#FFFFFF;}
+	.st4{display:inline;fill:#508CFF;}
+	.st5{fill:#00C263;}
+</style>
+<rect class="st0" width="980" height="980"/>
+<g id="Layer_2_xA0_Image_1_" class="st1">
+	
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="682" height="828" id="Layer_2_xA0_Image" xlink:href="94EB5109A41EA0A9.png"  transform="matrix(1 0 0 1 139 77)">
+	</image>
+</g>
+<g id="Layer_3" class="st1">
+	<path class="st2" d="M766,82.4H198c-7,0-12.8,5.8-12.8,12.8v529.5c0,7,5.8,12.8,12.8,12.8h568c7,0,12.8-5.8,12.8-12.8V95.2
+		C778.8,88.2,773,82.4,766,82.4z M733.6,593c0,3.3-2.7,5.9-5.9,5.9H236.4c-3.3,0-5.9-2.7-5.9-5.9V134.4c0-3.3,2.7-5.9,5.9-5.9h491.3
+		c3.3,0,5.9,2.7,5.9,5.9V593z"/>
+	<circle class="st3" cx="481.9" cy="602.2" r="303.5"/>
+	<rect x="139" y="537.7" class="st3" width="682" height="164.1"/>
+	<circle class="st4" cx="325.5" cy="621" r="66.9"/>
+	<circle class="st4" cx="638.3" cy="621" r="66.9"/>
+</g>
+<g id="Layer_3_copy">
+	<g>
+		<g>
+			<path class="st5" d="M778.8,537.7V95.2c0-7-5.8-12.8-12.8-12.8H198c-7,0-12.8,5.8-12.8,12.8v442.4H139v164.1h56.2
+				c41.2,118.7,154,203.9,286.7,203.9s245.5-85.2,286.7-203.9H821v-164H778.8z M325.5,687.9c-37,0-66.9-30-66.9-66.9
+				s30-66.9,66.9-66.9s66.9,30,66.9,66.9S362.5,687.9,325.5,687.9z M638.3,687.9c-37,0-66.9-30-66.9-66.9s30-66.9,66.9-66.9
+				s66.9,30,66.9,66.9S675.2,687.9,638.3,687.9z M733.6,432.5C679,351.8,586.7,298.7,481.9,298.7c-104.7,0-196.9,53-251.5,133.6
+				V134.4c0-3.3,2.7-5.9,5.9-5.9h491.3c3.3,0,5.9,2.7,5.9,5.9L733.6,432.5L733.6,432.5z"/>
+		</g>
+	</g>
+</g>
+</svg>
