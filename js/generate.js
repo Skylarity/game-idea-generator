@@ -5,9 +5,10 @@ $(document).ready(function() {
 
 function generate() {
 	bits = {
-		"happyGameModifiers": ["colorful", "cheerful", "cartoony"],
-		"sadGameModifiers": ["gritty", "grimy", "brown", "macabre", "noir", "dark"],
-		"neutralGameModifiers": ["MMO", "artsy", "pixelated", "retro", "bullethell"],
+		"happyGameModifiers": ["colorful", "cheerful", "cartoony", "heart-warming"],
+		"sadGameModifiers": ["gritty", "grimy", "brown", "macabre", "noir", "dark", "thrilling"],
+		"neutralGameModifiers": ["thrilling"],
+		"gameTypes": ["MMO", "artsy", "pixelated", "retro", "bullethell", "physics-based"],
 
 		"gameGenres": ["RPG", "platformer", "sidescroller", "first-person game", "third-person game", "top-down game", "tower defense game", "puzzle game", "simulator", "hack n' slash", "roguelike", "metroidvania"],
 
@@ -18,7 +19,7 @@ function generate() {
 		"neutralFirstAdjectives": ["little", "young", "old"],
 		"neutralSecondAdjectives": ["space", "ambitious", ""],
 
-		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirates", "alien", "bird", "monk"],
+		"nouns": ["truckers", "soldier", "girl", "woman", "boy", "man", "dog", "monster", "ninja", "pirates", "alien", "bird", "monk", "robot"],
 
 		"settings": ["in a forest", "under the sea", "in the ocean", "in space", "in a cave", "in a cavern", "in a big city", "in a small town", "in the desert", "on an island"]
 	};
@@ -37,7 +38,15 @@ function generate() {
 	if (getRandomInt(0, 100) > 50) {
 		neutralAdjective = true;
 	}
+	neutralGameModifier = false;
+	if (getRandomInt(0, 100) > 42) {
+		neutralGameModifier = true;
+	}
 
+	if (neutralGameModifier) {
+		sentence += bits.neutralGameModifiers[rand = getRandomInt(0, bits.neutralGameModifiers.length)];
+		sentence += " ";
+	}
 	if (happy) {
 		sentence += bits.happyGameModifiers[rand = getRandomInt(0, bits.happyGameModifiers.length)];
 		sentence += " ";
@@ -46,7 +55,7 @@ function generate() {
 		sentence += " ";
 	}
 
-	sentence += bits.neutralGameModifiers[rand = getRandomInt(0, bits.neutralGameModifiers.length)];
+	sentence += bits.gameTypes[rand = getRandomInt(0, bits.gameTypes.length)];
 	sentence += " ";
 
 	sentence += bits.gameGenres[rand = getRandomInt(0, bits.gameGenres.length)];
