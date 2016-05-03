@@ -31,15 +31,15 @@ function generate() {
 		happy = true;
 	}
 	secondAdjective = false;
-	if (getRandomInt(0, 100) > 50) {
+	if (getRandomInt(0, 100) > 80) {
 		// secondAdjective = true; // TODO: Fix how second adjectives work
 	}
 	neutralAdjective = false;
-	if (getRandomInt(0, 100) > 50) {
+	if (getRandomInt(0, 100) > 75) {
 		neutralAdjective = true;
 	}
 	neutralGameModifier = false;
-	if (getRandomInt(0, 100) > 42) {
+	if (getRandomInt(0, 100) > 66) {
 		neutralGameModifier = true;
 	}
 
