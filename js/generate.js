@@ -34,9 +34,13 @@ function generate() {
 	if (getRandomInt(0, 100) > 75) {
 		secondAdjective = true;
 	}
-	neutralAdjective = false;
+	neutralAdjective1 = false;
 	if (getRandomInt(0, 100) > 75) {
-		neutralAdjective = true;
+		neutralAdjective1 = true;
+	}
+	neutralAdjective2 = false;
+	if (getRandomInt(0, 100) > 75) {
+		neutralAdjective2 = true;
 	}
 	neutralGameModifier = false;
 	if (getRandomInt(0, 100) > 66) {
@@ -69,17 +73,19 @@ function generate() {
 		sentence += " ";
 	}
 
-	if (neutralAdjective) {
+	if (neutralAdjective1) {
 		sentence += bits.neutralFirstAdjectives[rand = getRandomInt(0, bits.neutralFirstAdjectives.length)];
 		sentence += " ";
 	}
 
 	if (secondAdjective) {
+		if (neutralAdjective2) {
+			sentence += bits.neutralSecondAdjectives[rand = getRandomInt(0, bits.neutralSecondAdjectives.length)];
+			sentence += " ";
+		}
+
 		if (happy) {
 			sentence += bits.happySecondAdjectives[rand = getRandomInt(0, bits.happySecondAdjectives.length)];
-			sentence += " ";
-		} else if (neutralAdjective) {
-			sentence += bits.neutralSecondAdjectives[rand = getRandomInt(0, bits.neutralSecondAdjectives.length)];
 			sentence += " ";
 		} else {
 			sentence += bits.sadSecondAdjectives[rand = getRandomInt(0, bits.sadSecondAdjectives.length)];
